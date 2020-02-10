@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #a7a495;
+    font-family: Baskervville;
+}
+
+.marge{
+    margin-left: 10%;
+    margin-right: 11%;
+    background-color: rgba(255, 255, 255, 0.747)
+}
+header{
+    display: table;
+    border: 1px solid yellow;
+    width: 100%;
+    background-color: #d7bc2f;
+}
+header h1, header img{
+    float: left;
+}
+header h1{
+    margin-top: 50px;
+    width: 30%;
+    font-weight: bold;
+    font-family: Baskervville;
+}
+
+.Adresse{
+    display: table;
+    text-align: right;
+    margin-top: 50px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+article{
+    display: table;
+    width: 100%;
+    background-color: #37363c;
+    color: white;
+}
+
+.col li{
+    background-color: #d7bc2f;
+    color: black;
+}
+.section1, .section2{
+    width: 49%;
+    float: left;
+    display: inline;
+}
+
+.section2{
+    border-left: 1px solid #d7bc2f;
+}
+
+
+.profil{
+    margin-left: 30%;
+}
+.profil li{
+    list-style-type: square;
+}
+
+.interet{
+    margin-left: 30%;
+}
+.interet li{
+    list-style: square;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color:  #d7bb2f59;
+    margin-top: -16px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+.Logicie{
+    display: table;
+    border-left: 3px solid red;
+    margin-bottom: 30px;
+}
+.Logiciel div, .Logiciel li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    display: table;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.ul{
+    border: 1px solid yellow;
+}
+
+.section2 h1{
+    text-align: center;
+}
+
+.section2 ul{
+    list-style: none
+}
+
+.souline{
+    
+    width: 70%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+
+
+.Log{
+    display: inline;
+    margin-bottom: 30px;
+    width: 100%;
+    display: table;
+}
+
+.jkm{
+    display: table;
+    margin-bottom: 30px;
+}
+
+.jkm li{
+    margin-right: 30px;
+    float: left;
+    width: 35%;
+}
+
+.jkm img{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.jkmimg ul{
+    width: 100%;
+    border: 1px solid black;
+    display: table;
+}
+
+.jkmimg{
+    width: 100%;
+}
+
+.li1{
+    margin-left: 50px;
+    width: 70%;
+}
+
+.Log li{
+    list-style: none;
+    float: left;
+    border: 1px solid black;
+    width: 30%;
+}
+
+article h2{
+    text-align: center;
+    border-bottom: 5px solid #d7bc2f
+}
+
+button{
+    width: 50px;
+    height: 25px;
+    color: yellow;
+}
+
+.Logiciel img{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 650px){
+    .Adresse{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+
+    body{
+        background-color: #a7a495;
+    }
+
+    .profil{
+        margin: 0px;
+    }
+
+    .Logiciel{
+        margin-left: -30px;
+        border-bottom: 3px solid red;
+    }
+
+    .Logiciel li, .Logiciel p{
+        margin-bottom: 20px;
+        text-align: inherit;
+        margin-left: 20px;
+    }
+
+    .Logiciel p{
+        margin-left: -5px;
+    }
+
+    .section1, .section2{
+        width: 0%;
+        float: none;
+        border: 1px solid yellow;
+        display: inline;
+    }
+
+    .entreprise{
+        margin-left: -20px;
+        
+    }
+
+    
+}
